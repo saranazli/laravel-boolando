@@ -40,7 +40,7 @@ return [
         "frontImage" => "3.webp",
         "backImage" => "3b.webp",
         "brand" => "Come Zucchero Filato",
-        "name" => "Voglia di colori pastello",
+        "name" => "Voglia pastello",
         "price" => 129.99,
         "isInFavorites" => false,
         "badges" => [

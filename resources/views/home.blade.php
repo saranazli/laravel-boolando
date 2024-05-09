@@ -5,15 +5,11 @@
 
 <div class="center">
   <div  class="conteiner cards center">
-    <div class="conteiner-card">
-
-      <h1>SARA</h1>
-    
-      @foreach($cards as $card)
-    
+    @foreach($cards as $card)
+      <div class="conteiner-card">
         <div>
     
-          <img :src="{{$card['frontimage']}}" alt="img">
+          <img src="{{ asset('img/' . $card['frontImage']) }}" alt="img">
     
         </div>
     
@@ -22,9 +18,8 @@
             <h1 class="clothes-name"> {{ $card['name'] }}</h1>
           <span class="solded-price"> {{ $card['price'] }}</span>
         </div>
-        
-        @endforeach
       </div>
+    @endforeach
   </div>
 </div>
 
