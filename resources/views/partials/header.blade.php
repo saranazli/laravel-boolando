@@ -1,3 +1,3 @@
 <header>
-  <H1>header</H1>
+  <H1>HEADER</H1>
 </header>
