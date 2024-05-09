@@ -17,5 +17,5 @@ Route::get('/', function () {
 
     $cards = config('cards');
 
-    return view('home', compact('cards'));
-});
+    return view('layout.main', compact('cards'));
+})->name('cards');

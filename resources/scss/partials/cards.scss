@@ -1,12 +1,17 @@
 
-.conteiner.cards{
-  flex-wrap: wrap;
-  margin-top: 50px;
-  margin-bottom: 50px;
-}
+main{
 
-.conteiner.cards{
-  flex-wrap: wrap;
-  margin-top: 50px;
-  margin-bottom: 50px;
+  height: 700px;
+  
+  .conteiner.cards{
+    flex-wrap: wrap;
+    margin-top: 50px;
+    margin-bottom: 50px;
+  }
+  
+  .conteiner-card{
+    width: 400px;
+    margin: 10px;
+    position: relative;
+  }
 }
