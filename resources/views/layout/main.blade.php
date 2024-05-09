@@ -8,8 +8,8 @@
   {{-- style --}}
   @vite('resources/js/app.js')
 
-  
-  <title>Document</title>
+
+  <title>Boolando</title>
 </head>
 <body>
   
@@ -17,7 +17,7 @@
 
   <main>
 
-    @yeld('content')
+    @yield('content')
 
   </main>
 

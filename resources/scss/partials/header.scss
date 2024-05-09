@@ -1,0 +1,22 @@
+
+header{
+  height: 80px;
+  background-color: $bg_color_header;
+  .conteiner.header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-height: 100%;
+    .options{
+      padding-right: 10px;
+    }
+    .logo.cont{
+      max-width: 40%;
+      max-height: 70%;
+      img.logo{
+        width: 40%;
+        height: 50%;
+      }
+    }
+  }
+}
