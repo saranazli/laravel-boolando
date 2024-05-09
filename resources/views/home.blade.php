@@ -13,19 +13,18 @@
     
         <div>
     
-          <img :src="{{$card->frontimage}}" alt="img">
+          <img :src="{{$card['frontimage']}}" alt="img">
     
         </div>
     
         <div>
-          <span class="brand"> {{ $card->brand }} </span>
-            <h1 class="clothes-name"> {{ $card->name }}</h1>
-          <span class="solded-price"> {{ $card->price }}</span>
+          <span class="brand"> {{ $card['brand'] }} </span>
+            <h1 class="clothes-name"> {{ $card['name'] }}</h1>
+          <span class="solded-price"> {{ $card['price'] }}</span>
         </div>
-    
-      @endforeach
-
-    </div>
+        
+        @endforeach
+      </div>
   </div>
 </div>
 
